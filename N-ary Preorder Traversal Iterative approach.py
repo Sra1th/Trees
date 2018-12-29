@@ -1,11 +1,11 @@
-// https: // leetcode.com / problems / n - ary - tree - preorder - traversal /
+// https://leetcode.com/problems/n-ary-tree-preorder-traversal/
 
 """
 Push the root to stack
 While Stack is not empty
 	Pop the stack and store it in a root variable
 	Append the value attribute of the root variable into a list
-	Extend the stack by appending the children of the root variable in reversed order (considering from first left subtree in resultant list).
+	Extend the stack wih the children of the root variable in reversed order (considering from first left subtree in resultant list).
 Return the list
 """
 
